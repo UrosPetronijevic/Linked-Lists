@@ -8,7 +8,7 @@ class Node {
   }
 }
 
-class SinglyLinkedList {
+export class SinglyLinkedList {
   head: Node | null;
   tail: Node | null;
   size: number;
@@ -138,3 +138,5 @@ class SinglyLinkedList {
     this.head = prev; // After the loop, prev will be the new head
   }
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
